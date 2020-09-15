@@ -120,7 +120,8 @@ import {
     CallHierarchyItem,
     CallHierarchyIncomingCall,
     CallHierarchyOutgoingCall,
-    TimelineItem
+    TimelineItem,
+    EnvironmentVariableMutatorType
 } from './types-impl';
 import { SymbolKind } from '../common/plugin-api-rpc-model';
 import { EditorsAndDocumentsExtImpl } from './editors-and-documents';
@@ -880,7 +881,8 @@ export function createAPIFactory(
             CallHierarchyItem,
             CallHierarchyIncomingCall,
             CallHierarchyOutgoingCall,
-            TimelineItem
+            TimelineItem,
+            EnvironmentVariableMutatorType
         };
     };
 }
